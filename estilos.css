@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@100;300&display=swap');
+
+*{
+    font-family: 'Urbanist', sans-serif;
+    font-weight: 100;
+}
+
+.navbar{
+    background-color: #fff;
+}
+
+.hero{
+    border: none;
+}
+
+.catalogo{
+    text-transform: uppercase;
+    padding-block: 30px;
+    text-align: center;
+    place-items: center;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 100px 300px;
+    grid-template-areas:
+    ".      title   button"
+    "suero  base    espuma";
+}
+
+.bestSeller{
+    grid-area: title;
+    font-size: 25px;
+}
+
+.bestSellerButton{
+    grid-area: button;
+}
+
+.bestSellerButton a{
+    color: black;
+    text-decoration: none;
+}
+
+.bestSellerButton a:hover{
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+.suero{
+    grid-area: suero;
+}
+
+.suero h5, h6{
+    font-size: 16px;
+}
+
+.suero a{
+    color: black;
+    text-decoration: none;
+}
+
+.suero:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+.suero a:hover{
+    text-decoration: none;
+}
+
+.base{
+    grid-area: base;
+}
+
+.base h5, h6{
+    font-size: 16px;
+}
+
+.base a{
+    color: black;
+    text-decoration: none;
+}
+
+.base:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+.base a:hover{
+    text-decoration: none;
+}
+
+.espuma{
+    grid-area: espuma;
+}
+
+.espuma h5, h6{
+    font-size: 16px;
+}
+
+.espuma a{
+    color: black;
+    text-decoration: none;
+}
+
+.espuma:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+.espuma a:hover{
+    text-decoration: none;
+}
+
+
+.hover:hover{
+    font-weight: 300;
+}
+
+/*CONTACTO*/
+.form-control{
+    width: 300px;
+}
+
+/*NOSOTROS*/
+.valeria{
+    border: none;
+}
+.img-omnilife{
+    background-color: rgba(109, 67, 12, 0.471);
+    padding-block: 30px;
+}
+
+/*SEYTU*/
+.articulo-seytu:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+/*OMNILIFE*/
+.articulo-omnilife:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+/*FOOTER*/
+.footer{
+    font-size: small;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footerCliente h6{
+    text-transform: uppercase;
+}
+
+.footerCliente ul{
+    list-style-type: none;
+}
+
+.footerCliente ul li a{
+    color: black;
+    text-decoration: none;
+}
+
+.footerCliente ul li a:hover{
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+.footerOrganizacion h6{
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.footerOrganizacion form input{
+    width: 100%;
+}
+
+.footerOrganizacion form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footerOrganizacion form a{
+    text-decoration: none;
+    margin: 5px;
+    text-transform: uppercase;
+    color: black;
+}
+
+.footerOrganizacion form a:hover{
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+.checkbox{
+    display: flex;
+    gap: 16px;
+}
+
+.footerContacto h6{
+    text-transform: uppercase;
+}
+
+.footerContacto ul{
+    list-style-type: none;
+}
+
+.iconos a{
+    padding-inline: 10px;
+    color: rgb(65, 65, 65);
+    text-decoration: none;
+}
+
+.iconos a:hover{
+    text-decoration: none;
+    color: black;
+}
+
+
+
+
